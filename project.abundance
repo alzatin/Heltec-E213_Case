@@ -7,6 +7,1061 @@
   "topLevel": true,
   "allAtoms": [
     {
+      "atomType": "Molecule",
+      "x": 0.35,
+      "y": 0.55,
+      "uniqueID": "id-1022",
+      "name": "Case Bottom",
+      "ioValues": [
+        {
+          "name": "BattLength",
+          "ioValue": 10
+        },
+        {
+          "name": "BattWidth",
+          "ioValue": 10
+        },
+        {
+          "name": "BattThickness",
+          "ioValue": 10
+        },
+        {
+          "name": "Wall",
+          "ioValue": 10
+        },
+        {
+          "name": "Clearance",
+          "ioValue": 10
+        },
+        {
+          "name": "Antenna",
+          "ioValue": 10
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-1024",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0254,
+          "y": 0.1538,
+          "uniqueID": "id-1026",
+          "name": "BattLength",
+          "type": "number",
+          "options": []
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0254,
+          "y": 0.2462,
+          "uniqueID": "id-1029",
+          "name": "BattWidth",
+          "type": "number",
+          "options": []
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0254,
+          "y": 0.3385,
+          "uniqueID": "id-1032",
+          "name": "BattThickness",
+          "type": "number",
+          "options": []
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0254,
+          "y": 0.4308,
+          "uniqueID": "id-1035",
+          "name": "Wall",
+          "type": "number",
+          "options": []
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0254,
+          "y": 0.5231,
+          "uniqueID": "id-1038",
+          "name": "Clearance",
+          "type": "number",
+          "options": []
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0254,
+          "y": 0.6154,
+          "uniqueID": "id-1041",
+          "name": "Antenna",
+          "type": "number",
+          "options": []
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.35,
+          "y": 0.15,
+          "uniqueID": "id-1044",
+          "name": "Outer Shell",
+          "ioValues": [
+            {
+              "name": "BattLength",
+              "ioValue": 10
+            },
+            {
+              "name": "BattWidth",
+              "ioValue": 10
+            },
+            {
+              "name": "BattThickness",
+              "ioValue": 10
+            },
+            {
+              "name": "Wall",
+              "ioValue": 10
+            },
+            {
+              "name": "Clearance",
+              "ioValue": 10
+            },
+            {
+              "name": "Antenna",
+              "ioValue": 10
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-1046",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.1538,
+              "uniqueID": "id-1048",
+              "name": "BattLength",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.2462,
+              "uniqueID": "id-1051",
+              "name": "BattWidth",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.3385,
+              "uniqueID": "id-1054",
+              "name": "BattThickness",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.4308,
+              "uniqueID": "id-1057",
+              "name": "Wall",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.5231,
+              "uniqueID": "id-1060",
+              "name": "Clearance",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.6154,
+              "uniqueID": "id-1063",
+              "name": "Antenna",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "GitHubMolecule",
+              "x": 0.4,
+              "y": 0.4,
+              "uniqueID": "id-1072",
+              "name": "Rounded_Rectangle",
+              "ioValues": [
+                {
+                  "name": "X_Length",
+                  "ioValue": 116.75,
+                  "currentEquation": "max(BattLength, 66.75) + 2 * Clearance + Antenna + 2 * Wall"
+                },
+                {
+                  "name": "Y_Length",
+                  "ioValue": 70.41,
+                  "currentEquation": "max(BattWidth, 30.41) + 2 * Clearance + 2 * Wall"
+                },
+                {
+                  "name": "Radius",
+                  "ioValue": 3
+                }
+              ],
+              "topLevel": false,
+              "allAtoms": [
+                {
+                  "atomType": "Output",
+                  "x": 0.98,
+                  "y": 0.5,
+                  "uniqueID": "id-1067",
+                  "ioValues": [
+                    {
+                      "name": "number or geometry",
+                      "ioValue": "__GEOMETRY_INPUT__"
+                    }
+                  ]
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.1538,
+                  "uniqueID": "id-1068",
+                  "name": "X_Length",
+                  "options": []
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.2462,
+                  "uniqueID": "id-1069",
+                  "name": "Y_Length",
+                  "options": []
+                },
+                {
+                  "atomType": "Input",
+                  "x": 0.0254,
+                  "y": 0.3385,
+                  "uniqueID": "id-1070",
+                  "name": "Radius",
+                  "options": []
+                },
+                {
+                  "atomType": "Code",
+                  "x": 0.4967,
+                  "y": 0.6479,
+                  "uniqueID": "id-1071",
+                  "ioValues": [
+                    {
+                      "name": "width",
+                      "ioValue": 116.75
+                    },
+                    {
+                      "name": "height",
+                      "ioValue": 70.41
+                    },
+                    {
+                      "name": "cornerRadius",
+                      "ioValue": 3
+                    }
+                  ],
+                  "interpreterVersion": 1,
+                  "code": "function run(\n  width: number = 40,\n  height: number = 30,\n  cornerRadius: number = 5,\n): Assembly {\n  // Create a 2D rounded rectangle sketch\n  const roundedRect = replicad.drawRoundedRectangle(width, height, cornerRadius);\n\n  return new Assembly({\n    geometry: roundedRect,\n    tags: [],\n    bom: [`Rounded rectangle ${width}×${height} mm, r=${cornerRadius} mm`],\n  });\n}",
+                  "compiledCode": "\"use strict\";\nfunction run(width = 40, height = 30, cornerRadius = 5) {\n    // Create a 2D rounded rectangle sketch\n    const roundedRect = replicad.drawRoundedRectangle(width, height, cornerRadius);\n    return new Assembly({\n        geometry: roundedRect,\n        tags: [],\n        bom: [`Rounded rectangle ${width}×${height} mm, r=${cornerRadius} mm`],\n    });\n}\n"
+                }
+              ],
+              "allConnectors": [
+                {
+                  "ap2Name": "width",
+                  "ap1ID": "id-1068",
+                  "ap2ID": "id-1071"
+                },
+                {
+                  "ap2Name": "height",
+                  "ap1ID": "id-1069",
+                  "ap2ID": "id-1071"
+                },
+                {
+                  "ap2Name": "cornerRadius",
+                  "ap1ID": "id-1070",
+                  "ap2ID": "id-1071"
+                },
+                {
+                  "ap2Name": "number or geometry",
+                  "ap1ID": "id-1071",
+                  "ap2ID": "id-1067"
+                }
+              ],
+              "parentRepo": {
+                "owner": "BarbourSmith",
+                "repoName": "Rounded_Rectangle",
+                "privateRepo": false,
+                "dateModified": "2026-06-24T22:04:58Z"
+              },
+              "unitsKey": "Unitless",
+              "fileTypeVersion": 1,
+              "scaleToProjectUnits": true,
+              "lastReloadedFromGithubAt": 1795033534729
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.65,
+              "y": 0.4,
+              "uniqueID": "id-1087",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 50.08,
+                  "currentEquation": "BattThickness + 10.08 + Clearance + 2 * Wall"
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1072",
+              "ap2ID": "id-1087"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-1087",
+              "ap2ID": "id-1046"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.35,
+          "y": 0.35,
+          "uniqueID": "id-1091",
+          "name": "Pocket",
+          "ioValues": [
+            {
+              "name": "BattLength",
+              "ioValue": 10
+            },
+            {
+              "name": "BattWidth",
+              "ioValue": 10
+            },
+            {
+              "name": "BattThickness",
+              "ioValue": 10
+            },
+            {
+              "name": "Wall",
+              "ioValue": 10
+            },
+            {
+              "name": "Clearance",
+              "ioValue": 10
+            },
+            {
+              "name": "Antenna",
+              "ioValue": 10
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-1093",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.1538,
+              "uniqueID": "id-1095",
+              "name": "BattLength",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.2462,
+              "uniqueID": "id-1098",
+              "name": "BattWidth",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.3385,
+              "uniqueID": "id-1101",
+              "name": "BattThickness",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.4308,
+              "uniqueID": "id-1104",
+              "name": "Wall",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.5231,
+              "uniqueID": "id-1107",
+              "name": "Clearance",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.6154,
+              "uniqueID": "id-1110",
+              "name": "Antenna",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.3,
+              "y": 0.25,
+              "uniqueID": "id-1113",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 96.75,
+                  "currentEquation": "max(BattLength, 66.75) + 2 * Clearance + Antenna"
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 50.41,
+                  "currentEquation": "max(BattWidth, 30.41) + 2 * Clearance"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.45,
+              "y": 0.25,
+              "uniqueID": "id-1117",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 41.08,
+                  "currentEquation": "BattThickness + 10.08 + Clearance + Wall + 1"
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.6,
+              "y": 0.25,
+              "uniqueID": "id-1121",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 10,
+                  "currentEquation": "Wall"
+                }
+              ]
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.3,
+              "y": 0.65,
+              "uniqueID": "id-1127",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 106.75,
+                  "currentEquation": "max(BattLength, 66.75) + 2 * Clearance + Antenna + Wall"
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 60.41,
+                  "currentEquation": "max(BattWidth, 30.41) + 2 * Clearance + Wall"
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.45,
+              "y": 0.65,
+              "uniqueID": "id-1131",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 11,
+                  "currentEquation": "Wall + 1"
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.6,
+              "y": 0.65,
+              "uniqueID": "id-1135",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 40.08,
+                  "currentEquation": "Wall + BattThickness + 10.08 + Clearance"
+                }
+              ]
+            },
+            {
+              "atomType": "Fusion",
+              "x": 0.78,
+              "y": 0.45,
+              "uniqueID": "id-1141",
+              "ioValues": [
+                {
+                  "name": "Shape 1",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "Shape2",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
+              "unionType": "Fusion"
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1113",
+              "ap2ID": "id-1117"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1117",
+              "ap2ID": "id-1121"
+            },
+            {
+              "ap2Name": "Shape 1",
+              "ap1ID": "id-1121",
+              "ap2ID": "id-1141"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1127",
+              "ap2ID": "id-1131"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1131",
+              "ap2ID": "id-1135"
+            },
+            {
+              "ap2Name": "Shape2",
+              "ap1ID": "id-1135",
+              "ap2ID": "id-1141"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-1141",
+              "ap2ID": "id-1093"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.35,
+          "y": 0.55,
+          "uniqueID": "id-1146",
+          "name": "USB Opening",
+          "ioValues": [
+            {
+              "name": "BattLength",
+              "ioValue": 10
+            },
+            {
+              "name": "BattThickness",
+              "ioValue": 10
+            },
+            {
+              "name": "Wall",
+              "ioValue": 10
+            },
+            {
+              "name": "Clearance",
+              "ioValue": 10
+            },
+            {
+              "name": "Antenna",
+              "ioValue": 10
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-1148",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.1538,
+              "uniqueID": "id-1150",
+              "name": "BattLength",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.2462,
+              "uniqueID": "id-1153",
+              "name": "BattThickness",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.3385,
+              "uniqueID": "id-1156",
+              "name": "Wall",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.4308,
+              "uniqueID": "id-1159",
+              "name": "Clearance",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.5231,
+              "uniqueID": "id-1162",
+              "name": "Antenna",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Rectangle",
+              "x": 0.35,
+              "y": 0.5,
+              "uniqueID": "id-1165",
+              "ioValues": [
+                {
+                  "name": "x length",
+                  "ioValue": 40,
+                  "currentEquation": "4 * Wall"
+                },
+                {
+                  "name": "y length",
+                  "ioValue": 11
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.55,
+              "y": 0.5,
+              "uniqueID": "id-1169",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 6
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.75,
+              "y": 0.5,
+              "uniqueID": "id-1173",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": 48.375,
+                  "currentEquation": "(max(BattLength, 66.75) + 2 * Clearance + Antenna) / 2"
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 18.68,
+                  "currentEquation": "Wall + BattThickness + 10.08 - 8.4 - 3"
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1165",
+              "ap2ID": "id-1169"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1169",
+              "ap2ID": "id-1173"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-1173",
+              "ap2ID": "id-1148"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Molecule",
+          "x": 0.35,
+          "y": 0.75,
+          "uniqueID": "id-1179",
+          "name": "SMA Hole",
+          "ioValues": [
+            {
+              "name": "BattLength",
+              "ioValue": 10
+            },
+            {
+              "name": "BattThickness",
+              "ioValue": 10
+            },
+            {
+              "name": "Wall",
+              "ioValue": 10
+            },
+            {
+              "name": "Clearance",
+              "ioValue": 10
+            },
+            {
+              "name": "Antenna",
+              "ioValue": 10
+            }
+          ],
+          "topLevel": false,
+          "allAtoms": [
+            {
+              "atomType": "Output",
+              "x": 0.98,
+              "y": 0.5,
+              "uniqueID": "id-1181",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.1538,
+              "uniqueID": "id-1183",
+              "name": "BattLength",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.2462,
+              "uniqueID": "id-1186",
+              "name": "BattThickness",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.3385,
+              "uniqueID": "id-1189",
+              "name": "Wall",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.4308,
+              "uniqueID": "id-1192",
+              "name": "Clearance",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Input",
+              "x": 0.0254,
+              "y": 0.5231,
+              "uniqueID": "id-1195",
+              "name": "Antenna",
+              "type": "number",
+              "options": []
+            },
+            {
+              "atomType": "Circle",
+              "x": 0.3,
+              "y": 0.5,
+              "uniqueID": "id-1198",
+              "ioValues": [
+                {
+                  "name": "diameter",
+                  "ioValue": 6.6
+                }
+              ]
+            },
+            {
+              "atomType": "Extrude",
+              "x": 0.45,
+              "y": 0.5,
+              "uniqueID": "id-1201",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "height",
+                  "ioValue": 40,
+                  "currentEquation": "4 * Wall"
+                }
+              ]
+            },
+            {
+              "atomType": "Rotate",
+              "x": 0.6,
+              "y": 0.5,
+              "uniqueID": "id-1205",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "x-axis degrees",
+                  "ioValue": 0
+                },
+                {
+                  "name": "y-axis degrees",
+                  "ioValue": 90
+                },
+                {
+                  "name": "z-axis degrees",
+                  "ioValue": 0
+                }
+              ]
+            },
+            {
+              "atomType": "Move",
+              "x": 0.75,
+              "y": 0.5,
+              "uniqueID": "id-1211",
+              "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
+                  "name": "xDist",
+                  "ioValue": -68.375,
+                  "currentEquation": "-(max(BattLength, 66.75) + 2 * Clearance + Antenna) / 2 - 2 * Wall"
+                },
+                {
+                  "name": "yDist",
+                  "ioValue": 0
+                },
+                {
+                  "name": "zDist",
+                  "ioValue": 25.04,
+                  "currentEquation": "Wall + (BattThickness + 10.08 + Clearance) / 2"
+                }
+              ]
+            }
+          ],
+          "allConnectors": [
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1198",
+              "ap2ID": "id-1201"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1201",
+              "ap2ID": "id-1205"
+            },
+            {
+              "ap2Name": "geometry",
+              "ap1ID": "id-1205",
+              "ap2ID": "id-1211"
+            },
+            {
+              "ap2Name": "number or geometry",
+              "ap1ID": "id-1211",
+              "ap2ID": "id-1181"
+            }
+          ],
+          "fileTypeVersion": 1
+        },
+        {
+          "atomType": "Fusion",
+          "x": 0.6,
+          "y": 0.6,
+          "uniqueID": "id-1217",
+          "ioValues": [
+            {
+              "name": "Shape 1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Shape3",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
+          "unionType": "Fusion"
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.8,
+          "y": 0.4,
+          "uniqueID": "id-1223",
+          "ioValues": [
+            {
+              "name": "retain",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "remove",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "retain",
+          "ap1ID": "id-1044",
+          "ap2ID": "id-1223"
+        },
+        {
+          "ap2Name": "Shape 1",
+          "ap1ID": "id-1091",
+          "ap2ID": "id-1217"
+        },
+        {
+          "ap2Name": "Shape2",
+          "ap1ID": "id-1146",
+          "ap2ID": "id-1217"
+        },
+        {
+          "ap2Name": "Shape3",
+          "ap1ID": "id-1179",
+          "ap2ID": "id-1217"
+        },
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-1217",
+          "ap2ID": "id-1223"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-1223",
+          "ap2ID": "id-1024"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
       "atomType": "Output",
       "x": 0.98,
       "y": 0.5,
@@ -21,22 +1076,85 @@
     {
       "atomType": "Constant",
       "x": 0.05,
-      "y": 0.15,
-      "uniqueID": "id-921",
+      "y": 0.1,
+      "uniqueID": "id-934",
       "name": "Battery Length",
       "value": 67
     },
     {
+      "atomType": "Constant",
+      "x": 0.05,
+      "y": 0.22,
+      "uniqueID": "id-936",
+      "name": "Battery Width",
+      "value": 35
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.05,
+      "y": 0.34,
+      "uniqueID": "id-938",
+      "name": "Battery Thickness",
+      "value": 10.02
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.05,
+      "y": 0.46,
+      "uniqueID": "id-940",
+      "name": "Wall",
+      "value": 2.5
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.05,
+      "y": 0.58,
+      "uniqueID": "id-942",
+      "name": "Clearance",
+      "value": 0.3
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.05,
+      "y": 0.7,
+      "uniqueID": "id-944",
+      "name": "Antenna Space",
+      "value": 10
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.05,
+      "y": 0.82,
+      "uniqueID": "id-946",
+      "name": "Lid Fit",
+      "value": 0.15
+    },
+    {
       "atomType": "Molecule",
-      "x": 0.5,
-      "y": 0.5,
-      "uniqueID": "id-923",
+      "x": 0.35,
+      "y": 0.15,
+      "uniqueID": "id-948",
       "name": "Battery",
       "ioValues": [
         {
           "name": "Length",
-          "ioValue": 67,
-          "currentEquation": "Battery Length + 1"
+          "ioValue": 67
+        },
+        {
+          "name": "Width",
+          "ioValue": 35
+        },
+        {
+          "name": "Thickness",
+          "ioValue": 10.02
+        },
+        {
+          "name": "Wall",
+          "ioValue": 2.5
+        },
+        {
+          "name": "Antenna",
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -45,7 +1163,7 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-925",
+          "uniqueID": "id-950",
           "ioValues": [
             {
               "name": "number or geometry",
@@ -57,16 +1175,52 @@
           "atomType": "Input",
           "x": 0.0254,
           "y": 0.1538,
-          "uniqueID": "id-927",
+          "uniqueID": "id-952",
           "name": "Length",
           "type": "number",
           "options": []
         },
         {
+          "atomType": "Input",
+          "x": 0.0254,
+          "y": 0.2462,
+          "uniqueID": "id-955",
+          "name": "Width",
+          "type": "number",
+          "options": []
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0254,
+          "y": 0.3385,
+          "uniqueID": "id-958",
+          "name": "Thickness",
+          "type": "number",
+          "options": []
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0254,
+          "y": 0.4308,
+          "uniqueID": "id-961",
+          "name": "Wall",
+          "type": "number",
+          "options": []
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0254,
+          "y": 0.5231,
+          "uniqueID": "id-964",
+          "name": "Antenna",
+          "type": "number",
+          "options": []
+        },
+        {
           "atomType": "Rectangle",
-          "x": 0.18,
-          "y": 0.32,
-          "uniqueID": "id-930",
+          "x": 0.3,
+          "y": 0.4,
+          "uniqueID": "id-967",
           "ioValues": [
             {
               "name": "x length",
@@ -75,20 +1229,337 @@
             },
             {
               "name": "y length",
-              "ioValue": 35
+              "ioValue": 35,
+              "currentEquation": "Width"
             }
           ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.45,
+          "y": 0.4,
+          "uniqueID": "id-971",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10.02,
+              "currentEquation": "Thickness"
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6,
+          "y": 0.4,
+          "uniqueID": "id-975",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 5,
+              "currentEquation": "Antenna / 2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 2.5,
+              "currentEquation": "Wall"
+            }
+          ]
+        },
+        {
+          "atomType": "Add-BOM-Tag",
+          "x": 0.75,
+          "y": 0.4,
+          "uniqueID": "id-981",
+          "name": "Add BOM Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Item Name",
+              "ioValue": "LiPo battery 67 x 35 x 10 mm, 3.7 V, JST 1.25 mm 2-pin",
+              "currentEquation": "LiPo battery 67 x 35 x 10 mm, 3.7 V, JST 1.25 mm 2-pin"
+            },
+            {
+              "name": "Number Needed",
+              "ioValue": 1
+            },
+            {
+              "name": "Cost (USD)",
+              "ioValue": 0
+            },
+            {
+              "name": "Source Link",
+              "ioValue": ""
+            }
+          ],
+          "BOMitem": {
+            "BOMitemName": "LiPo battery 67 x 35 x 10 mm, 3.7 V, JST 1.25 mm 2-pin",
+            "numberNeeded": 1,
+            "costUSD": 0,
+            "source": ""
+          }
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-967",
+          "ap2ID": "id-971"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-971",
+          "ap2ID": "id-975"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-975",
+          "ap2ID": "id-981"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-981",
+          "ap2ID": "id-950"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.35,
+      "y": 0.35,
+      "uniqueID": "id-988",
+      "name": "Board",
+      "ioValues": [
+        {
+          "name": "BatteryThickness",
+          "ioValue": 10.02
+        },
+        {
+          "name": "Wall",
+          "ioValue": 2.5
+        },
+        {
+          "name": "Antenna",
+          "ioValue": 10
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Rectangle",
+          "x": 0.3,
+          "y": 0.4,
+          "uniqueID": "id-1001",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 66.75
+            },
+            {
+              "name": "y length",
+              "ioValue": 30.41
+            }
+          ]
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.45,
+          "y": 0.4,
+          "uniqueID": "id-1005",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "height",
+              "ioValue": 10.08
+            }
+          ]
+        },
+        {
+          "atomType": "Move",
+          "x": 0.6,
+          "y": 0.4,
+          "uniqueID": "id-1009",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "xDist",
+              "ioValue": 5,
+              "currentEquation": "Antenna / 2"
+            },
+            {
+              "name": "yDist",
+              "ioValue": 0
+            },
+            {
+              "name": "zDist",
+              "ioValue": 12.52,
+              "currentEquation": "Wall + BatteryThickness"
+            }
+          ]
+        },
+        {
+          "atomType": "Add-BOM-Tag",
+          "x": 0.75,
+          "y": 0.4,
+          "uniqueID": "id-1015",
+          "name": "Add BOM Tag",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "Item Name",
+              "ioValue": "Heltec Vision Master E213 (HT-VME213) e-ink LoRa board",
+              "currentEquation": "Heltec Vision Master E213 (HT-VME213) e-ink LoRa board"
+            },
+            {
+              "name": "Number Needed",
+              "ioValue": 1
+            },
+            {
+              "name": "Cost (USD)",
+              "ioValue": 0
+            },
+            {
+              "name": "Source Link",
+              "ioValue": "https://heltec.org/project/vision-master-e213/",
+              "currentEquation": "https://heltec.org/project/vision-master-e213/"
+            }
+          ],
+          "BOMitem": {
+            "BOMitemName": "Heltec Vision Master E213 (HT-VME213) e-ink LoRa board",
+            "numberNeeded": 1,
+            "costUSD": 0,
+            "source": "https://heltec.org/project/vision-master-e213/"
+          }
+        },
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-990",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0254,
+          "y": 0.1538,
+          "uniqueID": "id-992",
+          "name": "BatteryThickness",
+          "type": "number",
+          "options": []
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0254,
+          "y": 0.2462,
+          "uniqueID": "id-995",
+          "name": "Wall",
+          "type": "number",
+          "options": []
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0254,
+          "y": 0.3385,
+          "uniqueID": "id-998",
+          "name": "Antenna",
+          "type": "number",
+          "options": []
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1001",
+          "ap2ID": "id-1005"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1005",
+          "ap2ID": "id-1009"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-1009",
+          "ap2ID": "id-1015"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-1015",
+          "ap2ID": "id-990"
+        }
+      ],
       "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
     {
       "ap2Name": "Length",
-      "ap1ID": "id-921",
-      "ap2ID": "id-923"
+      "ap1ID": "id-934",
+      "ap2ID": "id-948"
+    },
+    {
+      "ap2Name": "Width",
+      "ap1ID": "id-936",
+      "ap2ID": "id-948"
+    },
+    {
+      "ap2Name": "Thickness",
+      "ap1ID": "id-938",
+      "ap2ID": "id-948"
+    },
+    {
+      "ap2Name": "BatteryThickness",
+      "ap1ID": "id-938",
+      "ap2ID": "id-988"
+    },
+    {
+      "ap2Name": "Wall",
+      "ap1ID": "id-940",
+      "ap2ID": "id-948"
+    },
+    {
+      "ap2Name": "Wall",
+      "ap1ID": "id-940",
+      "ap2ID": "id-988"
+    },
+    {
+      "ap2Name": "Antenna",
+      "ap1ID": "id-944",
+      "ap2ID": "id-948"
+    },
+    {
+      "ap2Name": "Antenna",
+      "ap1ID": "id-944",
+      "ap2ID": "id-988"
     }
   ],
   "unitsKey": "MM",
