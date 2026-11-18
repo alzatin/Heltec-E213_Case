@@ -416,8 +416,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 10,
-                      "currentEquation": "10"
+                      "ioValue": 10
                     }
                   ]
                 },
@@ -813,8 +812,7 @@
                     },
                     {
                       "name": "distY",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     },
                     {
                       "name": "distZ",
@@ -1703,7 +1701,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 6
+                  "ioValue": 8
                 }
               ]
             },
@@ -1729,8 +1727,8 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 11.200000000000001,
-                  "currentEquation": "Wall + BattThickness + 10.08 - 8.4 - 3"
+                  "ioValue": 12.200000000000003,
+                  "currentEquation": "Wall + BattThickness + 10.08 - 8.4 + 2 - 4"
                 }
               ]
             },
@@ -2106,8 +2104,7 @@
               "ioValues": [
                 {
                   "name": "number of sides",
-                  "ioValue": 6,
-                  "currentEquation": "6"
+                  "ioValue": 6
                 },
                 {
                   "name": "diameter",
@@ -3217,8 +3214,7 @@
                 },
                 {
                   "name": "distY",
-                  "ioValue": 0,
-                  "currentEquation": "0"
+                  "ioValue": 0
                 },
                 {
                   "name": "distZ",
@@ -3812,8 +3808,7 @@
               "ioValues": [
                 {
                   "name": "number of sides",
-                  "ioValue": 6,
-                  "currentEquation": "6"
+                  "ioValue": 6
                 },
                 {
                   "name": "diameter",
@@ -4777,8 +4772,7 @@
                   "ioValues": [
                     {
                       "name": "diameter",
-                      "ioValue": 10,
-                      "currentEquation": "10"
+                      "ioValue": 10
                     }
                   ]
                 },
@@ -5174,8 +5168,7 @@
                     },
                     {
                       "name": "distY",
-                      "ioValue": 0,
-                      "currentEquation": "0"
+                      "ioValue": 0
                     },
                     {
                       "name": "distZ",
@@ -8997,8 +8990,7 @@
           "ioValues": [
             {
               "name": "number of sides",
-              "ioValue": 6,
-              "currentEquation": "6"
+              "ioValue": 6
             },
             {
               "name": "diameter",
@@ -10127,8 +10119,7 @@
             },
             {
               "name": "distY",
-              "ioValue": 0,
-              "currentEquation": "0"
+              "ioValue": 0
             },
             {
               "name": "distZ",
@@ -10980,6 +10971,10 @@
       "name": "Board",
       "ioValues": [
         {
+          "name": "BattWidth",
+          "ioValue": 35
+        },
+        {
           "name": "BatteryThickness",
           "ioValue": 10.02
         },
@@ -10990,10 +10985,6 @@
         {
           "name": "Antenna",
           "ioValue": 10
-        },
-        {
-          "name": "BattWidth",
-          "ioValue": 35
         }
       ],
       "topLevel": false,
@@ -11097,7 +11088,7 @@
         {
           "atomType": "Input",
           "x": 0.0254,
-          "y": 0.4308,
+          "y": 0.1538,
           "uniqueID": "id-2570",
           "name": "BattWidth",
           "type": "number",
@@ -11118,7 +11109,7 @@
         {
           "atomType": "Input",
           "x": 0.0254,
-          "y": 0.1538,
+          "y": 0.2462,
           "uniqueID": "id-992",
           "name": "BatteryThickness",
           "type": "number",
@@ -11127,7 +11118,7 @@
         {
           "atomType": "Input",
           "x": 0.0254,
-          "y": 0.2462,
+          "y": 0.3385,
           "uniqueID": "id-995",
           "name": "Wall",
           "type": "number",
@@ -11136,7 +11127,7 @@
         {
           "atomType": "Input",
           "x": 0.0254,
-          "y": 0.3385,
+          "y": 0.4308,
           "uniqueID": "id-998",
           "name": "Antenna",
           "type": "number",
