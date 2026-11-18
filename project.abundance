@@ -1,13 +1,97 @@
 {
-    "atomType": "Molecule",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "id-820",
-    "name": "Heltec-E213_Case",
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "MM",
-    "fileTypeVersion": 1,
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "id-820",
+  "name": "Heltec-E213_Case",
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Output",
+      "x": 0.98,
+      "y": 0.5,
+      "uniqueID": "id-821",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
+    },
+    {
+      "atomType": "Constant",
+      "x": 0.05,
+      "y": 0.15,
+      "uniqueID": "id-921",
+      "name": "Battery Length",
+      "value": 67
+    },
+    {
+      "atomType": "Molecule",
+      "x": 0.5,
+      "y": 0.5,
+      "uniqueID": "id-923",
+      "name": "Battery",
+      "ioValues": [
+        {
+          "name": "Length",
+          "ioValue": 67,
+          "currentEquation": "Battery Length + 1"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-925",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.0254,
+          "y": 0.1538,
+          "uniqueID": "id-927",
+          "name": "Length",
+          "type": "number",
+          "options": []
+        },
+        {
+          "atomType": "Rectangle",
+          "x": 0.18,
+          "y": 0.32,
+          "uniqueID": "id-930",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 67,
+              "currentEquation": "Length"
+            },
+            {
+              "name": "y length",
+              "ioValue": 35
+            }
+          ]
+        }
+      ],
+      "allConnectors": [],
+      "fileTypeVersion": 1
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap2Name": "Length",
+      "ap1ID": "id-921",
+      "ap2ID": "id-923"
+    }
+  ],
+  "unitsKey": "MM",
+  "fileTypeVersion": 1,
+  "filetypeVersion": 1
 }
