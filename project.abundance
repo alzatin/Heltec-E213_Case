@@ -8,8 +8,8 @@
   "allAtoms": [
     {
       "atomType": "Molecule",
-      "x": 0.3585,
-      "y": 0.5853,
+      "x": 0.3597,
+      "y": 0.5643,
       "uniqueID": "id-1022",
       "name": "Case Bottom",
       "ioValues": [
@@ -3134,8 +3134,8 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 28.175,
-                  "currentEquation": "Antenna / 2 + 66.75 / 2 - 10.2"
+                  "ioValue": 26.175,
+                  "currentEquation": "Antenna / 2 + 66.75 / 2 - 10.2 - 2"
                 },
                 {
                   "name": "yDist",
@@ -3178,8 +3178,8 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 33.825,
-                  "currentEquation": "Antenna / 2 + 66.75 / 2 - 4.55"
+                  "ioValue": 31.825000000000003,
+                  "currentEquation": "Antenna / 2 + 66.75 / 2 - 4.55 - 2"
                 },
                 {
                   "name": "yDist",
@@ -10018,8 +10018,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 33.825,
-              "currentEquation": "Antenna / 2 + 66.75 / 2 - 4.55"
+              "ioValue": 31.825000000000003,
+              "currentEquation": "Antenna / 2 + 66.75 / 2 - 4.55 - 2"
             },
             {
               "name": "yDist",
@@ -10062,8 +10062,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 33.825,
-              "currentEquation": "Antenna / 2 + 66.75 / 2 - 4.55"
+              "ioValue": 31.825000000000003,
+              "currentEquation": "Antenna / 2 + 66.75 / 2 - 4.55 - 2"
             },
             {
               "name": "yDist",
@@ -10541,8 +10541,8 @@
             },
             {
               "name": "xDist",
-              "ioValue": 33.825,
-              "currentEquation": "Antenna / 2 + 66.75 / 2 - 4.55"
+              "ioValue": 31.825000000000003,
+              "currentEquation": "Antenna / 2 + 66.75 / 2 - 4.55 - 2"
             },
             {
               "name": "yDist",
