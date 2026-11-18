@@ -339,8 +339,8 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 22.900000000000002,
-                  "currentEquation": "BattThickness + 10.08 + Clearance + Wall"
+                  "ioValue": 23.400000000000002,
+                  "currentEquation": "BattThickness + 10.08 + Clearance + 0.5 + Wall"
                 }
               ]
             },
@@ -363,8 +363,8 @@
                 },
                 {
                   "name": "Height",
-                  "ioValue": 22.900000000000002,
-                  "currentEquation": "BattThickness + 10.08 + Clearance + Wall"
+                  "ioValue": 23.400000000000002,
+                  "currentEquation": "BattThickness + 10.08 + Clearance + 0.5 + Wall"
                 }
               ],
               "topLevel": false,
@@ -1531,8 +1531,8 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 23.900000000000002,
-                  "currentEquation": "BattThickness + 10.08 + Clearance + Wall + 1"
+                  "ioValue": 24.400000000000002,
+                  "currentEquation": "BattThickness + 10.08 + Clearance + 0.5 + Wall + 1"
                 }
               ]
             },
@@ -2012,8 +2012,8 @@
             },
             {
               "name": "TopZ",
-              "ioValue": 22.900000000000002,
-              "currentEquation": "Wall + BattThickness + 10.08 + Clearance"
+              "ioValue": 23.400000000000002,
+              "currentEquation": "Wall + BattThickness + 10.08 + Clearance + 0.5"
             },
             {
               "name": "BossX",
@@ -2091,7 +2091,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 23.900000000000002,
+                  "ioValue": 24.400000000000002,
                   "currentEquation": "TopZ + 1"
                 }
               ]
@@ -2124,7 +2124,7 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 20.900000000000002,
+                  "ioValue": 21.400000000000002,
                   "currentEquation": "TopZ - 2"
                 }
               ]
@@ -4494,8 +4494,8 @@
             },
             {
               "name": "TopZ",
-              "ioValue": 22.900000000000002,
-              "currentEquation": "Wall + BattThickness + 10.08 + Clearance"
+              "ioValue": 23.400000000000002,
+              "currentEquation": "Wall + BattThickness + 10.08 + Clearance + 0.5"
             }
           ],
           "topLevel": false,
@@ -5552,7 +5552,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 22.900000000000002,
+                  "ioValue": 23.400000000000002,
                   "currentEquation": "TopZ"
                 }
               ]
@@ -5806,8 +5806,8 @@
             },
             {
               "name": "TopZ",
-              "ioValue": 22.900000000000002,
-              "currentEquation": "Wall + BattThickness + 10.08 + Clearance"
+              "ioValue": 23.400000000000002,
+              "currentEquation": "Wall + BattThickness + 10.08 + Clearance + 0.5"
             },
             {
               "name": "Thickness",
@@ -5926,7 +5926,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 21.900000000000002,
+                  "ioValue": 22.400000000000002,
                   "currentEquation": "TopZ - 1"
                 }
               ]
@@ -6315,7 +6315,7 @@
                 },
                 {
                   "name": "zDist",
-                  "ioValue": 21.900000000000002,
+                  "ioValue": 22.400000000000002,
                   "currentEquation": "TopZ - 1"
                 }
               ]
@@ -6859,8 +6859,8 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 9.88,
-                  "currentEquation": "10.08 + Clearance - 0.5"
+                  "ioValue": 10.38,
+                  "currentEquation": "10.08 + Clearance"
                 }
               ]
             },
@@ -7040,8 +7040,8 @@
                 },
                 {
                   "name": "height",
-                  "ioValue": 19.400000000000002,
-                  "currentEquation": "BattThickness + 10.08 + Clearance - 1"
+                  "ioValue": 19.900000000000002,
+                  "currentEquation": "BattThickness + 10.08 + Clearance + 0.5 - 1"
                 }
               ]
             },
@@ -8098,8 +8098,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 25.400000000000002,
-              "currentEquation": "2 * Wall + BattThickness + 10.08 + Clearance"
+              "ioValue": 25.900000000000002,
+              "currentEquation": "2 * Wall + BattThickness + 10.08 + Clearance + 0.5"
             }
           ]
         },
@@ -8469,8 +8469,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 25.400000000000002,
-              "currentEquation": "2 * Wall + BattThickness + 10.08 + Clearance"
+              "ioValue": 25.900000000000002,
+              "currentEquation": "2 * Wall + BattThickness + 10.08 + Clearance + 0.5"
             }
           ]
         },
@@ -9072,8 +9072,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 18.000000000000004,
-              "currentEquation": "Wall + BattThickness + 10.08 + Clearance - 2.5 - 2.4"
+              "ioValue": 18.500000000000004,
+              "currentEquation": "Wall + BattThickness + 10.08 + Clearance + 0.5 - 2.5 - 2.4"
             }
           ]
         },
@@ -9443,8 +9443,8 @@
             },
             {
               "name": "zDist",
-              "ioValue": 18.000000000000004,
-              "currentEquation": "Wall + BattThickness + 10.08 + Clearance - 2.5 - 2.4"
+              "ioValue": 18.500000000000004,
+              "currentEquation": "Wall + BattThickness + 10.08 + Clearance + 0.5 - 2.5 - 2.4"
             }
           ]
         },
