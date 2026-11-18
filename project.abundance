@@ -8,8 +8,8 @@
   "allAtoms": [
     {
       "atomType": "Molecule",
-      "x": 0.35,
-      "y": 0.55,
+      "x": 0.3537,
+      "y": 0.5223,
       "uniqueID": "id-1022",
       "name": "Case Bottom",
       "ioValues": [
@@ -35,7 +35,7 @@
         },
         {
           "name": "Antenna",
-          "ioValue": 10
+          "ioValue": 14
         }
       ],
       "topLevel": false,
@@ -135,7 +135,7 @@
             },
             {
               "name": "Antenna",
-              "ioValue": 10
+              "ioValue": 14
             }
           ],
           "topLevel": false,
@@ -215,7 +215,7 @@
               "ioValues": [
                 {
                   "name": "X_Length",
-                  "ioValue": 82.6,
+                  "ioValue": 86.6,
                   "currentEquation": "max(BattLength, 66.75) + 2 * Clearance + Antenna + 2 * Wall"
                 },
                 {
@@ -274,7 +274,7 @@
                   "ioValues": [
                     {
                       "name": "width",
-                      "ioValue": 82.6
+                      "ioValue": 86.6
                     },
                     {
                       "name": "height",
@@ -349,7 +349,7 @@
               "ioValues": [
                 {
                   "name": "HalfX",
-                  "ioValue": 42.8,
+                  "ioValue": 44.8,
                   "currentEquation": "(max(BattLength, 66.75) + 2 * Clearance + Antenna) / 2 + Wall + 1.5"
                 },
                 {
@@ -446,7 +446,7 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -42.8,
+                      "ioValue": -44.8,
                       "currentEquation": "-HalfX"
                     },
                     {
@@ -477,7 +477,7 @@
                     },
                     {
                       "name": "distX",
-                      "ioValue": 85.6,
+                      "ioValue": 89.6,
                       "currentEquation": "2 * HalfX"
                     },
                     {
@@ -643,7 +643,7 @@
                         },
                         {
                           "name": "distX",
-                          "ioValue": 85.6
+                          "ioValue": 89.6
                         },
                         {
                           "name": "distY",
@@ -1250,7 +1250,7 @@
             },
             {
               "name": "Antenna",
-              "ioValue": 10
+              "ioValue": 14
             }
           ],
           "topLevel": false,
@@ -1329,7 +1329,7 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 77.6,
+                  "ioValue": 81.6,
                   "currentEquation": "max(BattLength, 66.75) + 2 * Clearance + Antenna"
                 },
                 {
@@ -1426,7 +1426,7 @@
             },
             {
               "name": "Antenna",
-              "ioValue": 10
+              "ioValue": 14
             }
           ],
           "topLevel": false,
@@ -1533,7 +1533,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 38.8,
+                  "ioValue": 40.8,
                   "currentEquation": "(max(BattLength, 66.75) + 2 * Clearance + Antenna) / 2"
                 },
                 {
@@ -1592,7 +1592,7 @@
             },
             {
               "name": "Antenna",
-              "ioValue": 10
+              "ioValue": 14
             }
           ],
           "topLevel": false,
@@ -1719,7 +1719,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -43.8,
+                  "ioValue": -45.8,
                   "currentEquation": "-(max(BattLength, 66.75) + 2 * Clearance + Antenna) / 2 - 2 * Wall"
                 },
                 {
@@ -1808,7 +1808,7 @@
           "ioValues": [
             {
               "name": "HalfX",
-              "ioValue": 42.8,
+              "ioValue": 44.8,
               "currentEquation": "(max(BattLength, 66.75) + 2 * Clearance + Antenna) / 2 + Wall + 1.5"
             },
             {
@@ -1955,7 +1955,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -42.8,
+                  "ioValue": -44.8,
                   "currentEquation": "-HalfX"
                 },
                 {
@@ -1986,7 +1986,7 @@
                 },
                 {
                   "name": "distX",
-                  "ioValue": 85.6,
+                  "ioValue": 89.6,
                   "currentEquation": "2 * HalfX"
                 },
                 {
@@ -2152,7 +2152,7 @@
                     },
                     {
                       "name": "distX",
-                      "ioValue": 85.6
+                      "ioValue": 89.6
                     },
                     {
                       "name": "distY",
@@ -2855,8 +2855,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.35,
-      "y": 0.75,
+      "x": 0.3543,
+      "y": 0.7297,
       "uniqueID": "id-1227",
       "name": "Case Lid",
       "ioValues": [
@@ -2882,7 +2882,7 @@
         },
         {
           "name": "Antenna",
-          "ioValue": 10
+          "ioValue": 14
         }
       ],
       "topLevel": false,
@@ -2970,7 +2970,7 @@
             },
             {
               "name": "Antenna",
-              "ioValue": 10
+              "ioValue": 14
             }
           ],
           "topLevel": false,
@@ -3022,7 +3022,7 @@
               "ioValues": [
                 {
                   "name": "x length",
-                  "ioValue": 50
+                  "ioValue": 49.6
                 },
                 {
                   "name": "y length",
@@ -3059,8 +3059,8 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": 6.3,
-                  "currentEquation": "Antenna / 2 + 1.3"
+                  "ioValue": 8.465,
+                  "currentEquation": "Antenna / 2 - 66.75 / 2 + 10.54 + 48.6 / 2"
                 },
                 {
                   "name": "yDist",
@@ -3118,7 +3118,7 @@
           "ioValues": [
             {
               "name": "OuterX",
-              "ioValue": 82.6,
+              "ioValue": 86.6,
               "currentEquation": "max(BattLength, 66.75) + 2 * Clearance + Antenna + 2 * Wall"
             },
             {
@@ -3128,7 +3128,7 @@
             },
             {
               "name": "HalfX",
-              "ioValue": 42.8,
+              "ioValue": 44.8,
               "currentEquation": "(max(BattLength, 66.75) + 2 * Clearance + Antenna) / 2 + Wall + 1.5"
             },
             {
@@ -3224,7 +3224,7 @@
               "ioValues": [
                 {
                   "name": "X_Length",
-                  "ioValue": 82.6,
+                  "ioValue": 86.6,
                   "currentEquation": "OuterX"
                 },
                 {
@@ -3283,7 +3283,7 @@
                   "ioValues": [
                     {
                       "name": "width",
-                      "ioValue": 82.6
+                      "ioValue": 86.6
                     },
                     {
                       "name": "height",
@@ -3358,7 +3358,7 @@
               "ioValues": [
                 {
                   "name": "HalfX",
-                  "ioValue": 42.8,
+                  "ioValue": 44.8,
                   "currentEquation": "HalfX"
                 },
                 {
@@ -3455,7 +3455,7 @@
                     },
                     {
                       "name": "xDist",
-                      "ioValue": -42.8,
+                      "ioValue": -44.8,
                       "currentEquation": "-HalfX"
                     },
                     {
@@ -3486,7 +3486,7 @@
                     },
                     {
                       "name": "distX",
-                      "ioValue": 85.6,
+                      "ioValue": 89.6,
                       "currentEquation": "2 * HalfX"
                     },
                     {
@@ -3652,7 +3652,7 @@
                         },
                         {
                           "name": "distX",
-                          "ioValue": 85.6
+                          "ioValue": 89.6
                         },
                         {
                           "name": "distY",
@@ -4269,7 +4269,7 @@
           "ioValues": [
             {
               "name": "HalfX",
-              "ioValue": 42.8,
+              "ioValue": 44.8,
               "currentEquation": "(max(BattLength, 66.75) + 2 * Clearance + Antenna) / 2 + Wall + 1.5"
             },
             {
@@ -4379,7 +4379,7 @@
                 },
                 {
                   "name": "xDist",
-                  "ioValue": -42.8,
+                  "ioValue": -44.8,
                   "currentEquation": "-HalfX"
                 },
                 {
@@ -4411,7 +4411,7 @@
                 },
                 {
                   "name": "distX",
-                  "ioValue": 85.6,
+                  "ioValue": 89.6,
                   "currentEquation": "2 * HalfX"
                 },
                 {
@@ -4577,7 +4577,7 @@
                     },
                     {
                       "name": "distX",
-                      "ioValue": 85.6
+                      "ioValue": 89.6
                     },
                     {
                       "name": "distY",
@@ -5200,7 +5200,7 @@
         },
         {
           "name": "Antenna",
-          "ioValue": 10
+          "ioValue": 14
         }
       ],
       "topLevel": false,
@@ -5326,7 +5326,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -48.3,
+              "ioValue": -50.3,
               "currentEquation": "-(max(BattLength, 66.75) + 2 * Clearance + Antenna) / 2 - Wall - 7"
             },
             {
@@ -5452,8 +5452,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.55,
-      "y": 0.85,
+      "x": 0.5472,
+      "y": 0.6588,
       "uniqueID": "id-2169",
       "name": "Screws",
       "ioValues": [
@@ -5479,7 +5479,7 @@
         },
         {
           "name": "Antenna",
-          "ioValue": 10
+          "ioValue": 14
         }
       ],
       "topLevel": false,
@@ -5932,7 +5932,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -42.8,
+              "ioValue": -44.8,
               "currentEquation": "-((max(BattLength, 66.75) + 2 * Clearance + Antenna) / 2 + Wall + 1.5)"
             },
             {
@@ -5964,7 +5964,7 @@
             },
             {
               "name": "distX",
-              "ioValue": 85.6,
+              "ioValue": 89.6,
               "currentEquation": "(max(BattLength, 66.75) + 2 * Clearance + Antenna) + 2 * Wall + 3"
             },
             {
@@ -6130,7 +6130,7 @@
                 },
                 {
                   "name": "distX",
-                  "ioValue": 85.6
+                  "ioValue": 89.6
                 },
                 {
                   "name": "distY",
@@ -6690,7 +6690,7 @@
         },
         {
           "name": "Antenna",
-          "ioValue": 10
+          "ioValue": 14
         }
       ],
       "topLevel": false,
@@ -6842,7 +6842,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": -42.8,
+              "ioValue": -44.8,
               "currentEquation": "-((max(BattLength, 66.75) + 2 * Clearance + Antenna) / 2 + Wall + 1.5)"
             },
             {
@@ -6874,7 +6874,7 @@
             },
             {
               "name": "distX",
-              "ioValue": 85.6,
+              "ioValue": 89.6,
               "currentEquation": "(max(BattLength, 66.75) + 2 * Clearance + Antenna) + 2 * Wall + 3"
             },
             {
@@ -7040,7 +7040,7 @@
                 },
                 {
                   "name": "distX",
-                  "ioValue": 85.6
+                  "ioValue": 89.6
                 },
                 {
                   "name": "distY",
@@ -7639,7 +7639,7 @@
       "y": 0.7,
       "uniqueID": "id-944",
       "name": "Antenna Space",
-      "value": 10
+      "value": 14
     },
     {
       "atomType": "Molecule",
@@ -7666,7 +7666,7 @@
         },
         {
           "name": "Antenna",
-          "ioValue": 10
+          "ioValue": 14
         }
       ],
       "topLevel": false,
@@ -7775,7 +7775,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 5,
+              "ioValue": 7,
               "currentEquation": "Antenna / 2"
             },
             {
@@ -7852,8 +7852,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.35,
-      "y": 0.35,
+      "x": 0.3525,
+      "y": 0.3333,
       "uniqueID": "id-988",
       "name": "Board",
       "ioValues": [
@@ -7867,7 +7867,7 @@
         },
         {
           "name": "Antenna",
-          "ioValue": 10
+          "ioValue": 14
         }
       ],
       "topLevel": false,
@@ -7916,7 +7916,7 @@
             },
             {
               "name": "xDist",
-              "ioValue": 5,
+              "ioValue": 7,
               "currentEquation": "Antenna / 2"
             },
             {
