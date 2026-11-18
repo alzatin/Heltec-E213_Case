@@ -10381,6 +10381,40 @@
       "partName": "Heltec-E213_Case"
     },
     {
+      "atomType": "Export",
+      "x": 0.8567,
+      "y": 0.6063,
+      "uniqueID": "id-5205",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "STL Tolerance",
+          "ioValue": 0.05
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Heltec-E213_button",
+          "currentEquation": "Heltec-E213_button"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Heltec-E213_button"
+    },
+    {
       "atomType": "Output",
       "x": 0.98,
       "y": 0.5,
@@ -10900,6 +10934,11 @@
       "ap2Name": "Shape8",
       "ap1ID": "id-2796",
       "ap2ID": "id-1342"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-2796",
+      "ap2ID": "id-5205"
     },
     {
       "ap2Name": "BattLength",
