@@ -8,8 +8,8 @@
   "allAtoms": [
     {
       "atomType": "Molecule",
-      "x": 0.3513,
-      "y": 0.5302,
+      "x": 0.3585,
+      "y": 0.5853,
       "uniqueID": "id-1022",
       "name": "Case Bottom",
       "ioValues": [
@@ -3577,7 +3577,7 @@
     {
       "atomType": "Molecule",
       "x": 0.3585,
-      "y": 0.7244,
+      "y": 0.7349,
       "uniqueID": "id-1227",
       "name": "Case Lid",
       "ioValues": [
@@ -6731,7 +6731,7 @@
     {
       "atomType": "Molecule",
       "x": 0.5472,
-      "y": 0.6588,
+      "y": 0.6299,
       "uniqueID": "id-2169",
       "name": "Screws",
       "ioValues": [
@@ -9621,6 +9621,74 @@
       "fileTypeVersion": 1
     },
     {
+      "atomType": "Export",
+      "x": 0.6711,
+      "y": 0.3202,
+      "uniqueID": "id-2955",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STL",
+          "currentEquation": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "STL Tolerance",
+          "ioValue": 0.05
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Heltec-E213_Case",
+          "currentEquation": "Heltec-E213_Case"
+        }
+      ],
+      "type": "STL",
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Heltec-E213_Case"
+    },
+    {
+      "atomType": "Export",
+      "x": 0.7811,
+      "y": 0.8189,
+      "uniqueID": "id-2961",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "File Type",
+          "ioValue": "STEP",
+          "currentEquation": "STEP"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "STL Tolerance",
+          "ioValue": 0.05
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Heltec-E213_Case",
+          "currentEquation": "Heltec-E213_Case"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Heltec-E213_Case"
+    },
+    {
       "atomType": "Output",
       "x": 0.98,
       "y": 0.5,
@@ -9682,8 +9750,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3489,
-      "y": 0.1732,
+      "x": 0.3398,
+      "y": 0.1417,
       "uniqueID": "id-948",
       "name": "Battery",
       "ioValues": [
@@ -10092,9 +10160,19 @@
       "ap2ID": "id-1342"
     },
     {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1022",
+      "ap2ID": "id-2955"
+    },
+    {
       "ap2Name": "Shape2",
       "ap1ID": "id-1227",
       "ap2ID": "id-1342"
+    },
+    {
+      "ap2Name": "geometry",
+      "ap1ID": "id-1227",
+      "ap2ID": "id-2961"
     },
     {
       "ap2Name": "Shape5",
