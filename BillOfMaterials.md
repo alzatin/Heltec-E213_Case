@@ -4,5 +4,7 @@
  |----|----------|-----|-----|
 |LiPo battery 67 x 35 x 10 mm, 3.7 V, JST 1.25 mm 2-pin|1|$0.00||
 |SMA female bulkhead to IPEX/U.FL pigtail cable (1.13 mm, ~10 cm)|1|$0.00||
+|8mm M3 Bolt|4|$0.00||
+|M3 hex nut, DIN 934, zinc-plated steel|4|$0.00||
 |Heltec Vision Master E213 (HT-VME213) e-ink LoRa board|1|$0.00|https://heltec.org/project/vision-master-e213/|
-|Total: |3|$0.00| |
+|Total: |11|$0.00| |
