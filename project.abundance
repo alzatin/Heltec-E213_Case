@@ -8,8 +8,8 @@
   "allAtoms": [
     {
       "atomType": "Molecule",
-      "x": 0.3537,
-      "y": 0.5223,
+      "x": 0.3513,
+      "y": 0.5302,
       "uniqueID": "id-1022",
       "name": "Case Bottom",
       "ioValues": [
@@ -3551,8 +3551,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3543,
-      "y": 0.7297,
+      "x": 0.3585,
+      "y": 0.7244,
       "uniqueID": "id-1227",
       "name": "Case Lid",
       "ioValues": [
@@ -6426,8 +6426,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.35,
-      "y": 0.92,
+      "x": 0.3537,
+      "y": 0.9108,
       "uniqueID": "id-1297",
       "name": "SMA Connector",
       "ioValues": [
@@ -9529,8 +9529,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.35,
-      "y": 0.15,
+      "x": 0.3489,
+      "y": 0.1732,
       "uniqueID": "id-948",
       "name": "Battery",
       "ioValues": [
@@ -9738,8 +9738,8 @@
     },
     {
       "atomType": "Molecule",
-      "x": 0.3525,
-      "y": 0.3333,
+      "x": 0.364,
+      "y": 0.3596,
       "uniqueID": "id-988",
       "name": "Board",
       "ioValues": [
